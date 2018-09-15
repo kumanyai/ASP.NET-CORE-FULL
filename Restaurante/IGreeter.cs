@@ -1,6 +1,6 @@
 ﻿using Microsoft.Extensions.Configuration;
 
-namespace Restaurante
+namespace OdeToFood
 {
     public interface IGreeter
     {
@@ -18,7 +18,7 @@ namespace Restaurante
 
         public string GetMessageOfTheDay()
         {
-            return _configuration["Greetings!!!"];
+            return _configuration["Greeting"];
         }
     }
 }

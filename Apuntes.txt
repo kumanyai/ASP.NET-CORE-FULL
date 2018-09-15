@@ -1,0 +1,3 @@
+MiddleWare
+
+Primero pasa por el Logger luego por la autorizaion y si pasa luego pasa a las rutas que son las encargadas de mostrar la informacion XML, JSON o un archivo html... dando una respuesta 200
