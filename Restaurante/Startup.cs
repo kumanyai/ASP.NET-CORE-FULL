@@ -5,10 +5,12 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Routing;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
-using OdeToFood;
+using Restaurante.Services;
+using Resturante.Services;
 
 namespace Restaurante
 {
@@ -20,7 +22,8 @@ namespace Restaurante
         {
             //PONDREMOS NUESTROS INTERFACES/SERVICIOS PERSONALIZADOS PARA INYECTAR EN OTROS COMPONENTES
             //InvalidOperationException: No service for type 'Restaurante.IGreeter' has been registered.
-            services.AddSingleton<IGreeter, Greeter>();//CREAMOS LA INSTANCIA DE LA CLASE IGreeter
+            services.AddSingleton<IGreeter, Greeter>();//CREAMOS LA INSTANCIA DE LA CLASE IGreeter cuando necesiten el IGreeter
+            services.AddScoped<IRestaurantData, InMemoryRestaurantData>();//Creamos una instanacia con el ADDSCOPED para solicitudes HTTP
             services.AddMvc();
         }
 
@@ -39,13 +42,21 @@ namespace Restaurante
 
             app.UseStaticFiles();//Servimos archivos estaticos
 
-            app.UseMvcWithDefaultRoute();//Agregamos MVC y busca un archivo controlador
+            /*app.UseMvcWithDefaultRoute();*///Agregamos MVC y busca un archivo controlador
+            app.UseMvc(ConfigureRoutes);
 
             app.Run(async (context) =>
             {
                 var greeting = Greeter.GetMessageOfTheDay();
-                await context.Response.WriteAsync($"{greeting} : {env.EnvironmentName}");
+                context.Response.ContentType = "text/plain";
+                await context.Response.WriteAsync($"Not Found");
             });
+        }
+
+        private void ConfigureRoutes(IRouteBuilder routeBuilder)
+        {
+            // /home/index
+            routeBuilder.MapRoute("Default", "{controller=Home}/{action=Index}/{id?}");
         }
     }
 }

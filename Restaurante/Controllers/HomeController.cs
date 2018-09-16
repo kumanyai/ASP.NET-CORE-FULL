@@ -1,16 +1,25 @@
-﻿//Esta clase no necesita derivar de otras clases especificas
-//using System;
-//using System.Collections.Generic;
-//using System.Linq;
-//using System.Threading.Tasks;
+﻿
+using Microsoft.AspNetCore.Mvc;
+using Restaurante.Models;
+using Restaurante.Services;
 
 namespace Restaurante.Controllers
 {
-    public class HomeController
+    public class HomeController : Controller
     {
-        public string Index() //Verificamos si existe un metodo Index
+        private IRestaurantData _restaurantData;
+
+        public HomeController(IRestaurantData restaurantData)
         {
-            return "Hola desde el HomeController!";
+            _restaurantData = restaurantData;
+        }
+
+        public IActionResult Index() //Verificamos si existe un metodo Index
+        {
+            var model = _restaurantData.GetAll();
+            /*return new ObjectResult(model);*///enviamos los datos serializados en JSON
+            return View(model);
+
         }
     }
 }

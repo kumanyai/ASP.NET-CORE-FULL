@@ -1,6 +1,6 @@
 ﻿using Microsoft.Extensions.Configuration;
 
-namespace OdeToFood
+namespace Resturante.Services
 {
     public interface IGreeter
     {
