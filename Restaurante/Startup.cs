@@ -23,8 +23,9 @@ namespace Restaurante
             //PONDREMOS NUESTROS INTERFACES/SERVICIOS PERSONALIZADOS PARA INYECTAR EN OTROS COMPONENTES
             //InvalidOperationException: No service for type 'Restaurante.IGreeter' has been registered.
             services.AddSingleton<IGreeter, Greeter>();//CREAMOS LA INSTANCIA DE LA CLASE IGreeter cuando necesiten el IGreeter
-            services.AddScoped<IRestaurantData, InMemoryRestaurantData>();//Creamos una instanacia con el ADDSCOPED para solicitudes HTTP
+            /*services.AddScoped<IRestaurantData, InMemoryRestaurantData>();*///Creamos una instanacia con el ADDSCOPED para solicitudes HTTP
             services.AddMvc();
+            services.AddSingleton<IRestaurantData, InMemoryRestaurantData>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

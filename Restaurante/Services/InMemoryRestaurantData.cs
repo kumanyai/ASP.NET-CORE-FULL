@@ -22,6 +22,18 @@ namespace Restaurante.Services
                
         }
 
+        public Restaurant Add(Restaurant restaurant)
+        {
+            restaurant.id = _restaurants.Max(r => r.id) + 1;
+            _restaurants.Add(restaurant);
+            return restaurant;
+        }
+
+        public Restaurant Get(int id)
+        {
+            return _restaurants.FirstOrDefault(r => r.id == id);
+        }
+
         public IEnumerable<Restaurant> GetAll()
         {
             return _restaurants.OrderBy(r => r.Name);
