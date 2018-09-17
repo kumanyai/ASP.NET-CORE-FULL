@@ -10,6 +10,7 @@ namespace Restaurante.Models
     {
         public int id { get; set; }
         [Display(Name="Nombre del Restaurante")]
+        [Required, MaxLength(80)]
         public string Name { get; set; }
         public CuisineType Cuisine { get; set; } 
 
