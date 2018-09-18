@@ -29,3 +29,7 @@ C:\Users\Alex Talavera\Documents\Pluralsight\ASP.NET CORE Fundamentals\Restauran
 C:\Users\Alex Talavera\Documents\Pluralsight\ASP.NET CORE Fundamentals\Restaurante\obj\Debug\netcoreapp2.1\Razor\Pages\_ViewImports.g.cshtml.cs
 C:\Users\Alex Talavera\Documents\Pluralsight\ASP.NET CORE Fundamentals\Restaurante\obj\Debug\netcoreapp2.1\Razor\Pages\_ViewStart.g.cshtml.cs
 C:\Users\Alex Talavera\Documents\Pluralsight\ASP.NET CORE Fundamentals\Restaurante\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
+C:\Users\Alex Talavera\Documents\Pluralsight\ASP.NET CORE Fundamentals\Restaurante\obj\Debug\netcoreapp2.1\Razor\Pages\Restaurants\edit.g.cshtml.cs
+C:\Users\Alex Talavera\Documents\Pluralsight\ASP.NET CORE Fundamentals\Restaurante\obj\Debug\netcoreapp2.1\Razor\Pages\_Layout.g.cshtml.cs
+C:\Users\Alex Talavera\Documents\Pluralsight\ASP.NET CORE Fundamentals\Restaurante\obj\Debug\netcoreapp2.1\Razor\Views\Home\_summary.g.cshtml.cs
+C:\Users\Alex Talavera\Documents\Pluralsight\ASP.NET CORE Fundamentals\Restaurante\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Components\Greeter\Default.g.cshtml.cs

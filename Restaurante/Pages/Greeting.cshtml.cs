@@ -12,12 +12,15 @@ namespace Restaurante.Pages
     {
         private IGreeter _greeter;
 
+        public string CurrentGreeting { get; set; }
+
         public GreetingModel(IGreeter greeter)
         {
             _greeter = greeter;
         }
         public void OnGet()
         {
+            CurrentGreeting = _greeter.GetMessageOfTheDay();
         }
     }
 }
