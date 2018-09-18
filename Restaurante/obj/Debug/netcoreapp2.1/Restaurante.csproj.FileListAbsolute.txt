@@ -33,3 +33,38 @@ C:\Users\Alex Talavera\Documents\Pluralsight\ASP.NET CORE Fundamentals\Restauran
 C:\Users\Alex Talavera\Documents\Pluralsight\ASP.NET CORE Fundamentals\Restaurante\obj\Debug\netcoreapp2.1\Razor\Pages\_Layout.g.cshtml.cs
 C:\Users\Alex Talavera\Documents\Pluralsight\ASP.NET CORE Fundamentals\Restaurante\obj\Debug\netcoreapp2.1\Razor\Views\Home\_summary.g.cshtml.cs
 C:\Users\Alex Talavera\Documents\Pluralsight\ASP.NET CORE Fundamentals\Restaurante\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Components\Greeter\Default.g.cshtml.cs
+C:\Users\wtalavera\Documents\PLURALSIGHT\ASP.NET-CORE-FULL\Restaurante\bin\Debug\netcoreapp2.1\Restaurante.deps.json
+C:\Users\wtalavera\Documents\PLURALSIGHT\ASP.NET-CORE-FULL\Restaurante\bin\Debug\netcoreapp2.1\Restaurante.runtimeconfig.json
+C:\Users\wtalavera\Documents\PLURALSIGHT\ASP.NET-CORE-FULL\Restaurante\bin\Debug\netcoreapp2.1\Restaurante.runtimeconfig.dev.json
+C:\Users\wtalavera\Documents\PLURALSIGHT\ASP.NET-CORE-FULL\Restaurante\bin\Debug\netcoreapp2.1\Restaurante.dll
+C:\Users\wtalavera\Documents\PLURALSIGHT\ASP.NET-CORE-FULL\Restaurante\bin\Debug\netcoreapp2.1\Restaurante.pdb
+C:\Users\wtalavera\Documents\PLURALSIGHT\ASP.NET-CORE-FULL\Restaurante\bin\Debug\netcoreapp2.1\Restaurante.Views.dll
+C:\Users\wtalavera\Documents\PLURALSIGHT\ASP.NET-CORE-FULL\Restaurante\bin\Debug\netcoreapp2.1\Restaurante.Views.pdb
+C:\Users\wtalavera\Documents\PLURALSIGHT\ASP.NET-CORE-FULL\Restaurante\obj\Debug\netcoreapp2.1\Restaurante.csprojAssemblyReference.cache
+C:\Users\wtalavera\Documents\PLURALSIGHT\ASP.NET-CORE-FULL\Restaurante\obj\Debug\netcoreapp2.1\Restaurante.csproj.CoreCompileInputs.cache
+C:\Users\wtalavera\Documents\PLURALSIGHT\ASP.NET-CORE-FULL\Restaurante\obj\Debug\netcoreapp2.1\Restaurante.RazorAssemblyInfo.cache
+C:\Users\wtalavera\Documents\PLURALSIGHT\ASP.NET-CORE-FULL\Restaurante\obj\Debug\netcoreapp2.1\Restaurante.RazorAssemblyInfo.cs
+C:\Users\wtalavera\Documents\PLURALSIGHT\ASP.NET-CORE-FULL\Restaurante\obj\Debug\netcoreapp2.1\Restaurante.AssemblyInfoInputs.cache
+C:\Users\wtalavera\Documents\PLURALSIGHT\ASP.NET-CORE-FULL\Restaurante\obj\Debug\netcoreapp2.1\Restaurante.AssemblyInfo.cs
+C:\Users\wtalavera\Documents\PLURALSIGHT\ASP.NET-CORE-FULL\Restaurante\obj\Debug\netcoreapp2.1\Restaurante.TagHelpers.input.cache
+C:\Users\wtalavera\Documents\PLURALSIGHT\ASP.NET-CORE-FULL\Restaurante\obj\Debug\netcoreapp2.1\Restaurante.TagHelpers.output.cache
+C:\Users\wtalavera\Documents\PLURALSIGHT\ASP.NET-CORE-FULL\Restaurante\obj\Debug\netcoreapp2.1\Restaurante.RazorCoreGenerate.cache
+C:\Users\wtalavera\Documents\PLURALSIGHT\ASP.NET-CORE-FULL\Restaurante\obj\Debug\netcoreapp2.1\Razor\Pages\Greeting.g.cshtml.cs
+C:\Users\wtalavera\Documents\PLURALSIGHT\ASP.NET-CORE-FULL\Restaurante\obj\Debug\netcoreapp2.1\Razor\Pages\Restaurants\edit.g.cshtml.cs
+C:\Users\wtalavera\Documents\PLURALSIGHT\ASP.NET-CORE-FULL\Restaurante\obj\Debug\netcoreapp2.1\Razor\Pages\_Layout.g.cshtml.cs
+C:\Users\wtalavera\Documents\PLURALSIGHT\ASP.NET-CORE-FULL\Restaurante\obj\Debug\netcoreapp2.1\Razor\Pages\_ViewImports.g.cshtml.cs
+C:\Users\wtalavera\Documents\PLURALSIGHT\ASP.NET-CORE-FULL\Restaurante\obj\Debug\netcoreapp2.1\Razor\Pages\_ViewStart.g.cshtml.cs
+C:\Users\wtalavera\Documents\PLURALSIGHT\ASP.NET-CORE-FULL\Restaurante\obj\Debug\netcoreapp2.1\Razor\Views\Home\Create.g.cshtml.cs
+C:\Users\wtalavera\Documents\PLURALSIGHT\ASP.NET-CORE-FULL\Restaurante\obj\Debug\netcoreapp2.1\Razor\Views\Home\Details.g.cshtml.cs
+C:\Users\wtalavera\Documents\PLURALSIGHT\ASP.NET-CORE-FULL\Restaurante\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
+C:\Users\wtalavera\Documents\PLURALSIGHT\ASP.NET-CORE-FULL\Restaurante\obj\Debug\netcoreapp2.1\Razor\Views\Home\_summary.g.cshtml.cs
+C:\Users\wtalavera\Documents\PLURALSIGHT\ASP.NET-CORE-FULL\Restaurante\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Components\Greeter\Default.g.cshtml.cs
+C:\Users\wtalavera\Documents\PLURALSIGHT\ASP.NET-CORE-FULL\Restaurante\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
+C:\Users\wtalavera\Documents\PLURALSIGHT\ASP.NET-CORE-FULL\Restaurante\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
+C:\Users\wtalavera\Documents\PLURALSIGHT\ASP.NET-CORE-FULL\Restaurante\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
+C:\Users\wtalavera\Documents\PLURALSIGHT\ASP.NET-CORE-FULL\Restaurante\obj\Debug\netcoreapp2.1\Restaurante.RazorTargetAssemblyInfo.cache
+C:\Users\wtalavera\Documents\PLURALSIGHT\ASP.NET-CORE-FULL\Restaurante\obj\Debug\netcoreapp2.1\Restaurante.RazorTargetAssemblyInfo.cs
+C:\Users\wtalavera\Documents\PLURALSIGHT\ASP.NET-CORE-FULL\Restaurante\obj\Debug\netcoreapp2.1\Restaurante.Views.pdb
+C:\Users\wtalavera\Documents\PLURALSIGHT\ASP.NET-CORE-FULL\Restaurante\obj\Debug\netcoreapp2.1\Restaurante.dll
+C:\Users\wtalavera\Documents\PLURALSIGHT\ASP.NET-CORE-FULL\Restaurante\obj\Debug\netcoreapp2.1\Restaurante.pdb
+C:\Users\wtalavera\Documents\PLURALSIGHT\ASP.NET-CORE-FULL\Restaurante\obj\Debug\netcoreapp2.1\Restaurante.csproj.CopyComplete

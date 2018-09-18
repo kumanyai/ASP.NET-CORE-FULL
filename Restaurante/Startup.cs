@@ -5,11 +5,14 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Rewrite;
 using Microsoft.AspNetCore.Routing;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
+using Microsoft.AspNetCore.Authentication.Cookies;
+using Microsoft.AspNetCore.Authentication.OpenIdConnect;
 using Restaurante.Data;
 using Restaurante.Services;
 using Resturante.Services;
@@ -29,6 +32,19 @@ namespace Restaurante
         // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
         public void ConfigureServices(IServiceCollection services)
         {
+
+            services.AddAuthentication(options =>
+            {
+                options.DefaultScheme = CookieAuthenticationDefaults.AuthenticationScheme;
+                options.DefaultChallengeScheme = OpenIdConnectDefaults.AuthenticationScheme; //Forzamos al usuario a Autenticarse
+
+            })
+            .AddOpenIdConnect(options => 
+            {
+                _configuration.Bind("AzureAd", options);                                
+            })
+            .AddCookie();
+
             //PONDREMOS NUESTROS INTERFACES/SERVICIOS PERSONALIZADOS PARA INYECTAR EN OTROS COMPONENTES
             //InvalidOperationException: No service for type 'Restaurante.IGreeter' has been registered.
             services.AddSingleton<IGreeter, Greeter>();//CREAMOS LA INSTANCIA DE LA CLASE IGreeter cuando necesiten el IGreeter
@@ -54,8 +70,12 @@ namespace Restaurante
 
             app.UseStaticFiles();//Servimos archivos estaticos
 
+            app.UseAuthentication();
+
             /*app.UseMvcWithDefaultRoute();*///Agregamos MVC y busca un archivo controlador
             app.UseMvc(ConfigureRoutes);
+
+            app.UseRewriter(new RewriteOptions().AddRedirectToHttpsPermanent());
 
             app.Run(async (context) =>
             {

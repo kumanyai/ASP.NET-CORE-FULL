@@ -1,5 +1,6 @@
 ﻿
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Authorization;
 using Restaurante.Models;
 using Restaurante.Services;
 using Restaurante.ViewModels;
@@ -7,6 +8,7 @@ using Resturante.Services;
 
 namespace Restaurante.Controllers
 {
+    [Authorize]
     public class HomeController : Controller
     {
         private IRestaurantData _restaurantData;
@@ -18,7 +20,7 @@ namespace Restaurante.Controllers
             _restaurantData = restaurantData;
             _greeter = greeter;
         }
-
+        [AllowAnonymous]
         public IActionResult Index()
         {
             var model = new HomeIndexViewModel();

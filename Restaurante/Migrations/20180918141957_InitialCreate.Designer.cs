@@ -9,14 +9,14 @@ using Restaurante.Data;
 namespace Restaurante.Migrations
 {
     [DbContext(typeof(RestauranteDbContext))]
-    [Migration("20180917005913_InitialCreate")]
+    [Migration("20180918141957_InitialCreate")]
     partial class InitialCreate
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "2.1.2-rtm-30932")
+                .HasAnnotation("ProductVersion", "2.1.1-rtm-30846")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128)
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
@@ -28,7 +28,9 @@ namespace Restaurante.Migrations
 
                     b.Property<int>("Cuisine");
 
-                    b.Property<string>("Name");
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasMaxLength(80);
 
                     b.HasKey("id");
 

@@ -14288,23 +14288,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Alex Talavera\\.nuget\\packages\\": {},
+    "C:\\Users\\wtalavera\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Alex Talavera\\Documents\\Pluralsight\\ASP.NET CORE Fundamentals\\Restaurante\\Restaurante.csproj",
+      "projectUniqueName": "C:\\Users\\wtalavera\\Documents\\PLURALSIGHT\\ASP.NET-CORE-FULL\\Restaurante\\Restaurante.csproj",
       "projectName": "Restaurante",
-      "projectPath": "C:\\Users\\Alex Talavera\\Documents\\Pluralsight\\ASP.NET CORE Fundamentals\\Restaurante\\Restaurante.csproj",
-      "packagesPath": "C:\\Users\\Alex Talavera\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Alex Talavera\\Documents\\Pluralsight\\ASP.NET CORE Fundamentals\\Restaurante\\obj\\",
+      "projectPath": "C:\\Users\\wtalavera\\Documents\\PLURALSIGHT\\ASP.NET-CORE-FULL\\Restaurante\\Restaurante.csproj",
+      "packagesPath": "C:\\Users\\wtalavera\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\wtalavera\\Documents\\PLURALSIGHT\\ASP.NET-CORE-FULL\\Restaurante\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Alex Talavera\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\wtalavera\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
